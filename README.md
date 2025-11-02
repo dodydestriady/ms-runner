@@ -12,6 +12,7 @@ Then run this command
 ```
 make setup
 ```
+note: this will clone order service and product service repository inside this project
 
 For test k6
 ```
