@@ -51,6 +51,7 @@ services:
       target: production
     ports:
       - "8000:8000"
+    restart: unless-stopped
     environment:
       APP_PORT: 8000
       PRODUCT_SERVICE_URL: http://product-service:3000
